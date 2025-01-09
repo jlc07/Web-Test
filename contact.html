@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive multi page website using HTML CSS & JavaScript</title>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--ICON SCOUT CDN-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!--=========================NAVBAR SECTION=========================-->
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">Hamburguesas Mac Flaco</a>
+
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#products">Productos</a></li>
+          <li><a href="index.html#why-choose-us">Porque Escogernos?</a></li>
+          <li><a href="contact.html" class="active">Contacto</a></li>
+        </ul>
+
+        <button id="menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+    <!--=========================END OF NAVBAR=========================-->
+
+    <!--=========================CONTACT SECTION=========================-->
+    <section id="contact">
+      <div class="container">
+        <aside>
+          <h4>Mantente en contacto</h4>
+          <p>Nos encantaria saber de ti, estamos para ayudarte</p>
+          <div class="info">
+            <article>
+              <span class="icon"><i class="uil uil-envelope"></i></span>
+              <div class="details">
+                <h5>Habla con nosotros</h5>
+                <small>Dejanos tus dudas aqui!</small>
+                <p>jlcampo613@gmail.com</p>
+              </div>
+            </article>
+
+            <article>
+              <span class="icon"><i class="uil uil-map-marker"></i></span>
+              <div class="details">
+                <h5>Direccion</h5>
+                <small>Nuestra Oficina.</small>
+                <p>123 Calle Angosta</p>
+                <p>Ibagué - Colombia</p>
+              </div>
+            </article>
+
+            <article>
+              <span class="icon"><i class="uil uil-phone"></i></span>
+              <div class="details">
+                <h5>Telefono</h5>
+                <small>Lun - Vie de 9am - 5pm</small>
+                <p>+573192224281</p>
+              </div>
+            </article>
+          </div>
+        </aside>
+
+        <form action="https://formspree.io/f/mnnnoyvp" method="POST">
+          <input type="text" name="Name" placeholder="Tu Nombre" required />
+          <input
+            type="email"
+            name="Email Address"
+            placeholder="tu-email@mail.com"
+            required
+          />
+          <input
+            type="number"
+            name="Phone Number"
+            placeholder="Telefono"
+            required
+          />
+          <textarea name="message" placeholder="Mensaje"></textarea>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!--=========================END OF CONTACT SECTION=========================-->
+
+    <!--=========================FOOTER SECTION=========================-->
+    <footer>
+      <div class="container">
+        <div class="f2">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#products">Productos</a></li>
+            <li><a href="index.html#why-choose-us">Porque Escogernos?</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="f3">
+          <h4>Contactanos</h4>
+          <p>
+            +573192224281<br />
+            jlcampo613@gmail.com
+          </p>
+          <ul class="socials">
+            <li>
+              <a href="https://" target="_blank"
+                ><i class="uil uil-instagram-alt"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://" target="_blank"
+                ><i class="uil uil-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://" target="_blank"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <small>Copyright © Tutor Tech Solutions</small>
+      </div>
+    </footer>
+    <!--=========================END OF FOOTER SECTION=========================-->
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive multi page website using HTML CSS & JavaScript</title>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--ICON SCOUT CDN-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!--SWIPER JS CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--=========================NAVBAR SECTION=========================-->
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">Hamburguesas Mac Flaco</a>
+
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="#products">Productos</a></li>
+          <li><a href="#why-choose-us">Porque escogernos?</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+
+        <button id="menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+    <!--=========================END OF NAVBAR SECTION=========================-->
+
+    <!--=========================HEADER SECTION=========================-->
+    <header>
+      <div class="container">
+        <div class="info">
+          <div class="delivery">
+            <small>Son Puro Sabor</small>
+            <i class="uil uil-smile"></i>
+          </div>
+          <h1>Mac Burguer</h1>
+          <p>
+            Hamburguesa tipo angus doble carne, doble queso, tocino, lechugas y
+            tomates frescos.
+          </p>
+          <div class="cta">
+            <a href="#products" class="btn btn-primary">Ver Producto</a>
+            <a href="#" id="show-commercial-btn"
+              ><img src="images/play-button.png" alt="" />Mac Burguer</a
+            >
+          </div>
+        </div>
+
+        <div class="header-image">
+          <img src="images/hamburguesa.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <!--=========================END OF HEADER SECTION=========================-->
+
+    <!--=========================VIDEO SECTION=========================-->
+    <section id="commercial">
+      <div class="container">
+        <!--<video controls autoplay>-->
+        <video controls>
+          <source src="images/video.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+    <!--=========================END OF VIDEO SECTION=========================-->
+
+    <!--=========================PRODUCTS SECTION=========================-->
+    <section id="products">
+      <div class="container">
+        <h1>Descripción de nuestros productos</h1>
+        <br />
+        <article>
+          <div class="image">
+            <img src="images/hamburguesa.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h2>Hamburguesa Clasica<br />250 Grs</h2>
+            <p>
+              Un pan suave con semillas de sésamo que envuelve un jugoso filete
+              de carne a la parrilla. Está acompañada de lechuga fresca, tomate,
+              cebolla, pepinillos y salsas como mayonesa, mostaza o kétchup.
+              Algunos incluyen queso derretido para un toque adicional.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="info">
+            <h2>Hamburguesa Clasica<br />250 Grs</h2>
+            <p>
+              Un pan suave con semillas de sésamo que envuelve un jugoso filete
+              de carne a la parrilla. Está acompañada de lechuga fresca, tomate,
+              cebolla, pepinillos y salsas como mayonesa, mostaza o kétchup.
+              Algunos incluyen queso derretido para un toque adicional.
+            </p>
+          </div>
+          <div class="image">
+            <img src="images/hamburguesa.jpg" alt="" />
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--=========================END OF PRODUCTS SECTION=========================-->
+
+    <!--=========================WHY CHOOSE US SECTION=========================-->
+    <section id="why-choose-us">
+      <div class="container">
+        <article>
+          <div class="image">
+            <img src="images/comidas.avif" alt="" />
+          </div>
+          <div class="info">
+            <h4>Porque escogernos?</h4>
+            <p>
+              Manejamos ingredientes frescos y de la más alta calidad,
+              garantizando que cada bocado sea delicioso y saludable. Nos
+              enfocamos en servirte rápido, sin comprometer el sabor ni la
+              calidad, para que aproveches al máximo tu tiempo. Contamos con un
+              menú diverso que satisface todos los gustos, desde opciones
+              clásicas hasta alternativas innovadoras.
+            </p>
+            <p>
+              Ofrecemos comida deliciosa y accesible, asegurándonos de que
+              recibas más valor por tu dinero. "Nuestro equipo está comprometido
+              con brindarte un servicio amable y personalizado. Nos enorgullece
+              ser parte de la comunidad local, apoyando iniciativas y fomentando
+              el consumo responsable.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--=========================END OF WHY CHOOSE US SECTION=========================-->
+
+    <!--=========================TESTIMONIALS SECTION=========================-->
+    <section class="swiper">
+      <div class="swiper-wrapper">
+        <article class="swiper-slide">
+          <div class="image">
+            <img src="images/cliente.jpg" alt="" />
+          </div>
+          <div class="details">
+            <h4>Historias de nuestros clientes</h4>
+            <h2>Me encanto la comida!</h2>
+            <p>
+              "Me encantó la experiencia. La comida llegó caliente y con un
+              sabor delicioso. El personal fue súper amable, y la atención fue
+              rápida. Definitivamente volveré. Además, tienen buenas opciones
+              para niños, lo cual es perfecto para familias."
+            </p>
+            <h5>Carlos Rodriguez</h5>
+            <small>Empresario</small>
+          </div>
+        </article>
+
+        <article class="swiper-slide">
+          <div class="image">
+            <img src="images/cliente 1.jpg" alt="" />
+          </div>
+          <div class="details">
+            <h4>Historias de nuestros clientes</h4>
+            <h2>A gusto con la experiencia</h2>
+            <p>
+              "¡Increíble experiencia! La comida estuvo deliciosa, especialmente
+              las hamburguesas. Se nota que utilizan ingredientes frescos y de
+              calidad. Además, el servicio fue rápido y amable, lo que hace que
+              valga la pena cada visita. Sin duda, mi lugar favorito para comer
+              algo rápido y sabroso."
+            </p>
+            <h5>Diana Otalora</h5>
+            <small>Gerente de talento humano</small>
+          </div>
+        </article>
+
+        <article class="swiper-slide">
+          <div class="image">
+            <img src="images/cliente 2.png" alt="" />
+          </div>
+          <div class="details">
+            <h4>Historias de nuestros clientes</h4>
+            <h2>El menu esta increible!</h2>
+            <p>
+              "¡Me encantó este lugar! Tienen una gran variedad de opciones en
+              el menú, y todo lo que probé estaba espectacular. Las papas fritas
+              son crujientes y las porciones generosas. El ambiente es limpio y
+              cómodo, perfecto para disfrutar de una comida rápida sin
+              comprometer el sabor."
+            </p>
+            <h5>Ronal Otavo</h5>
+            <small>Desarrollador Web</small>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!--=========================END OF TESTIMONIAL SSECTION=========================-->
+
+    <!--=========================FAQS SECTION=========================-->
+    <section id="faqs">
+      <div class="container">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="content">
+          <article>
+            <div class="icon"><i class="uil uil-plus"></i></div>
+            <div class="detail">
+              <h4>Hay descuentos especiales para clientes?</h4>
+              <p>
+                Actualmente manejamos un sistema de acumulacion de puntos los
+                cuales puedes redimir en cualquiera de nuestras sedes por tu
+                comida favorita.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="icon"><i class="uil uil-plus"></i></div>
+            <div class="detail">
+              <h4>Manejan app para hacer pedir comida?</h4>
+              <p>
+                Si!!! actualmente puedes encontrarnos como Flaco Burguer en App
+                Store y Play Store.
+              </p>
+            </div>
+          </article>
+        </div>
+        <a href="contact.html" class="btn">Contacto</a>
+      </div>
+    </section>
+    <!--=========================END OF FAQS SECTION=========================-->
+
+    <!--=========================FOOTER SECTION=========================-->
+    <footer>
+      <div class="container">
+        <div class="f2">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#products">Productos</a></li>
+            <li><a href="#why-choose-us">Porque Escogernos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="f3">
+          <h4>Contactanos</h4>
+          <p>
+            +573192224281<br />
+            jlcampo613@gmail.com
+          </p>
+          <ul class="socials">
+            <li>
+              <a href="https://" target="_blank"
+                ><i class="uil uil-instagram-alt"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://" target="_blank"
+                ><i class="uil uil-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://" target="_blank"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <small>Copyright © Tutor Tech Solutions</small>
+      </div>
+    </footer>
+    <!--=========================END OF FOOTER SECTION=========================-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="javascript.js"></script>
+
+    <script>
+      //SWIPER JS TESTIMONIAL SECTION
+      var swiper = new Swiper(".swiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
