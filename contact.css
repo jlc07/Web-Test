@@ -3,6 +3,10 @@ section#contact .container {
   display: grid;
   grid-template-columns: 1fr auto;
 }
+section#contact h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
 
 section#contact form {
   display: flex;
