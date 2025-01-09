@@ -27,6 +27,7 @@
 
     <!--STYLESHEET-->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css">
   </head>
   <body>
     <!--=========================NAVBAR SECTION=========================-->
@@ -38,7 +39,7 @@
           <li><a href="index.html" class="active">Inicio</a></li>
           <li><a href="#products">Productos</a></li>
           <li><a href="#why-choose-us">Porque escogernos?</a></li>
-          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
 
         <button id="menu-btn"><i class="uil uil-bars"></i></button>
@@ -247,6 +248,30 @@
       </div>
     </section>
     <!--=========================END OF FAQS SECTION=========================-->
+
+    <!--=========================CONTACT SECTION=========================-->
+    <section id="contact">
+      <div class="container">
+        <form action="https://formspree.io/f/mnnnoyvp" method="POST">
+          <input type="text" name="Name" placeholder="Tu Nombre" required />
+          <input
+            type="email"
+            name="Email Address"
+            placeholder="tu-email@mail.com"
+            required
+          />
+          <input
+            type="number"
+            name="Phone Number"
+            placeholder="Telefono"
+            required
+          />
+          <textarea name="message" placeholder="Mensaje"></textarea>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!--=========================END OF CONTACT SECTION=========================-->
 
     <!--=========================FOOTER SECTION=========================-->
     <footer>

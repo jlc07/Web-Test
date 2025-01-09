@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #ff0000;
-  --color-primary-variant: #ffff00;
+  --color-primary: #cc0000;
+  --color-primary-variant: #ffff66;
   --color-black: #0a0a0c;
   --color-dark: #62656a;
   --color-white: #fff;
@@ -128,10 +128,10 @@ nav .logo {
   color: var(--color-white);
 }
 
-/*.window-scroll {
+.window-scroll {
   background: var(--color-primary);
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
-}*/
+}
 
 nav button {
   display: none;

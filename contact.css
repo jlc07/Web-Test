@@ -1,43 +1,14 @@
 /*CONTACT FORM STYLES*/
 section#contact .container {
   display: grid;
-  grid-template-columns: 20rem auto;
-  gap: 5rem;
-}
-
-section#contact aside {
-  background: var(--color-primary);
-  padding: 2rem;
-  font-size: 0.9rem;
-  color: var(--color-light);
-}
-
-section#contact aside h4 {
-  color: var(--color-white);
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-}
-
-section#contact aside article {
-  display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-section#contact aside article i {
-  color: var(--color-white);
-  font-size: 1.2rem;
-}
-
-section#contact aside article h5 {
-  font-weight: 600;
-  color: var(--color-white);
+  grid-template-columns: 1fr auto;
 }
 
 section#contact form {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  justify-self: center;
   gap: 1rem;
 }
 
@@ -53,7 +24,7 @@ section#contact form textarea {
 
 section#contact form input::placeholder,
 section#contact form textarea::placeholder {
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 section#contact form input:focus,
